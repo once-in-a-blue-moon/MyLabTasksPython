@@ -10,7 +10,6 @@ def integral_1(k):
     h=pi/k
     i=1
     while(i<=k):
-
         x=i*h-h/2
         f=math.log(2+math.sin(x))
         sum=sum+f
